@@ -1,0 +1,28 @@
+---
+layout: default
+title: Nuestras Cervezas
+subtitle: Estas son nuestras Cabras
+---
+
+<section class="post-list">
+
+  <header class="post-header intro">
+    <div class="intro-in">
+      <h1 class="post-title">{{ page.title }}</h1>
+      {% if page.subtitle %}
+        <h2 class="intro-subtitle">{{ page.subtitle }}</h2>
+      {% endif %}
+    </div>
+  </header>
+
+{% for cabra in site.cervezas %}
+<article class="post-item container">
+  <header>
+    <h1 class="post-title">
+      <a class="post-link" href="{{ cabra.url | prepend: site.baseurl }}">{{ cabra.name }} - {{ cabra.tipo }}</a>
+    </h1>
+  </header>
+
+  <p>{{ cabra.content | strip_html | truncatewords: 56 }} <a href="{{ cabra.url | prepend: site.baseurl }}" title="Permalink to: {{ cabra.name }}" class="read-more">Leer mas</a></p>
+</article>
+{% endfor %}

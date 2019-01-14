@@ -1,0 +1,35 @@
+---
+layout: page
+title: Contacto
+permalink: /contacto/
+---
+<style>
+
+	textarea {
+				height:213px;
+	}
+	#submit {
+    width:127px;
+    height:38px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+	}
+
+</style>
+
+
+<!-- Form Started -->
+
+<form action="https://formspree.io/cmartinpf@gmail.com
+" method="POST">
+	<label>Nombre</label>
+ <input type="text" name="name" placeholder="Escribe aquí tu nombre">
+ <label>Correo</label>
+ <input type="email" name="_replyto" placeholder="Escribe aquí tu correo">
+ <label>Mensaje</label>
+ <textarea name="message" placeholder="Escribe aquí tu mensaje"></textarea>
+ <input class="button" role="button" id="submit" type="submit" value="Send">
+</form>
+
+<!-- Form Ended -->

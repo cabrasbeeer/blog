@@ -1,0 +1,28 @@
+---
+layout: default
+title: Nosotros
+subtitle: Integrantes del equipo de Cabras
+---
+
+<section class="post-list">
+
+  <header class="post-header intro">
+    <div class="intro-in">
+      <h1 class="post-title">{{ page.title }}</h1>
+      {% if page.subtitle %}
+        <h2 class="intro-subtitle">{{ page.subtitle }}</h2>
+      {% endif %}
+    </div>
+  </header>
+
+{% for integrante in site.equipo %}
+<article class="post-item container">
+  <header>
+    <h1 class="post-title">
+      <a class="post-link" href="{{ integrante.url | prepend: site.baseurl }}">{{ integrante.name }} - {{ integrante.position }}</a>
+    </h1>
+  </header>
+
+  <p>{{ integrante.content | strip_html | truncatewords: 56 }} <a href="{{ integrante.url | prepend: site.baseurl }}" title="Permalink to: {{ integrante.name }}" class="read-more">Leer mas</a></p>
+</article>
+{% endfor %}
