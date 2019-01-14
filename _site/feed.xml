@@ -3,10 +3,10 @@
   <channel>
     <title>Cabras Beer</title>
     <description>Sitio en construcción</description>
-    <link>http://cabrasbeeer.com/</link>
-    <atom:link href="http://cabrasbeeer.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Jan 2019 11:43:21 -0300</pubDate>
-    <lastBuildDate>Mon, 14 Jan 2019 11:43:21 -0300</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 14 Jan 2019 12:04:32 -0300</pubDate>
+    <lastBuildDate>Mon, 14 Jan 2019 12:04:32 -0300</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
     
       <item>
@@ -17,8 +17,8 @@ Y que disfrutes nuestra cerveza tanto como nosotros!&lt;/p&gt;
 &lt;p&gt;Saludos!&lt;/p&gt;
 </description>
         <pubDate>Mon, 14 Jan 2019 10:54:35 -0300</pubDate>
-        <link>http://cabrasbeeer.com/hola-cerveceros</link>
-        <guid isPermaLink="true">http://cabrasbeeer.com/hola-cerveceros</guid>
+        <link>http://localhost:4000/hola-cerveceros</link>
+        <guid isPermaLink="true">http://localhost:4000/hola-cerveceros</guid>
         
         
       </item>
