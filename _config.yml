@@ -22,7 +22,8 @@ keywords: "cabras, beer, cerveza, beeer, uruguay"
 # Site settings
 url: "http://www.cabrasbeeer.com"
 
-exclude: [CHANGELOG.md, LICENSE, README.md]
+include: [_pages]
+exclude: [_site, CHANGELOG.md, LICENSE, README.md]
 
 #algolia:
 #  index_name: blog
