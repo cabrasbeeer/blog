@@ -20,7 +20,7 @@ description: "Sitio en construcción"
 keywords: "cabras, beer, cerveza, beeer, uruguay"
 
 # Site settings
-url: http://cabrasbeeer.com
+url: "http://www.cabrasbeeer.com"
 
 exclude: [_site, CHANGELOG.md, LICENSE, README.md]
 
@@ -52,7 +52,7 @@ collections:
   #  linkedin  : http://linkedin.com/in/nandomoreirame
 
 # google_analytics: UA-52446115-1
-repo: http://github.com/cabrasbeeer/blog
+#repo: http://github.com/cabrasbeeer/blog
 
 # comments
 #disqus_shortname: "fernandomoreira"
